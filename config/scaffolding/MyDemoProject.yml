@@ -12,3 +12,7 @@ services:
   packages:
   - name: MyDemoProject
     version: "1.0"
+- serviceName: pub.math:toNumber
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
