@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">alessandro_chinnici@it.ibm.com</value>
-    <value name="lastModifiedDate">1792420357957</value>
+    <value name="lastModifiedDate">1792420650784</value>
     <value name="displayName">addTwoNumbers</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -125,6 +125,24 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Math</value>
+          <value name="groupName">math</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">addInts</value>
+          <value name="serviceName">pub.math:addInts</value>
+          <Boolean name="enabled">true</Boolean>
+          <double name="rank" type="Double">0.06</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
