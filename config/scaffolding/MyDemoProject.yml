@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MyDemoProject
+  gitServerName: it_ac_github
+  gitUrl: https://github.com/AlessandroChinnici
+  gitUsername: AlessandroChinnici
+  gitBranch: main
