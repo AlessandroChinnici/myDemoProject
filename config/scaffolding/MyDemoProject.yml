@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/AlessandroChinnici
   gitUsername: AlessandroChinnici
   gitBranch: main
+services:
+- serviceName: project.mydemo.integrations:addTwoNumbers
+  packages:
+  - name: MyDemoProject
+    version: "1.0"
